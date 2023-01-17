@@ -1,0 +1,27 @@
+{
+  "name": "express-project",
+  "version": "1.0.0",
+  "description": "This is a project build about platzi courses of Node.Js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "list": "eslint"
+  },
+  "keywords": [
+    "Node",
+    "Express-project"
+  ],
+  "author": "Sebastian Londoño",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.3"
+  }
+}
